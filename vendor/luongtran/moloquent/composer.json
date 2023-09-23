@@ -1,0 +1,46 @@
+{
+  "name": "blpraveen/moloquent",
+  "description": "A MongoDB based Eloquent model and Query builder for Laravel (Moloquent)",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "mongodb",
+    "mongo",
+    "database",
+    "model",
+    "moloquent"
+  ],
+  "homepage": "https://github.com/blpraveen/moloquent",
+  "authors": [
+    {
+      "name": "B L Praveen"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "luongtran/monolog":"^2.2.0",
+    "illuminate/support": "^10.0",
+    "illuminate/container": "^10.0",
+    "illuminate/database": "^10.0",
+    "illuminate/events": "^10.0",
+    "mongodb/mongodb": "^1.6"
+  },
+  "require-dev": {
+    "laravel/passport": "^11.9",
+    "php": "^7.3|^8.1",
+    "orchestra/testbench": "^8.11",
+    "mockery/mockery": "^1.0"
+  },
+  "autoload": {
+    "psr-4" :{
+      "Moloquent\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php",
+      "tests/models",
+      "tests/seeds"
+    ]
+  }
+}
