@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => 'balajidharma/laravel-admin-core',
-        'pretty_version' => '1.x-dev',
-        'version' => '1.9999999.9999999.9999999-dev',
-        'reference' => '29c2ef08bf1790cef5f6e71fa46cb3cd9378627e',
+        'name' => 'luongtran/laravel-admin-core',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '650db93341b4bb812bb182e1387d6755ddee298e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'balajidharma/laravel-admin-core' => array(
-            'pretty_version' => '1.x-dev',
-            'version' => '1.9999999.9999999.9999999-dev',
-            'reference' => '29c2ef08bf1790cef5f6e71fa46cb3cd9378627e',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'balajidharma/laravel-category' => array(
             'pretty_version' => 'v1.0.3',
             'version' => '1.0.3.0',
@@ -262,6 +253,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'luongtran/laravel-admin-core' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '650db93341b4bb812bb182e1387d6755ddee298e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'luongtran/laravel-mongodb-permission-spatie' => array(
             'pretty_version' => 'v1.0.0',
             'version' => '1.0.0.0',
@@ -373,8 +373,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
