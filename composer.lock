@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a13b1a7b026a0d80dac09d559c28c355",
+    "content-hash": "7b2eb964802d91b7931204017f0704eb",
     "packages": [
         {
             "name": "balajidharma/laravel-category",
@@ -1637,20 +1637,21 @@
         },
         {
             "name": "luongtran/laravel-mongodb-permission-spatie",
-            "version": "v1.0.0",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luongtran/laravel-mongodb-permission-saptie.git",
-                "reference": "56166121b6a83901cf8196d813f9264fc43a463f"
+                "reference": "d7c70066fb5e40f843b0a7499528c8110058fb38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luongtran/laravel-mongodb-permission-saptie/zipball/56166121b6a83901cf8196d813f9264fc43a463f",
-                "reference": "56166121b6a83901cf8196d813f9264fc43a463f",
+                "url": "https://api.github.com/repos/luongtran/laravel-mongodb-permission-saptie/zipball/d7c70066fb5e40f843b0a7499528c8110058fb38",
+                "reference": "d7c70066fb5e40f843b0a7499528c8110058fb38",
                 "shasum": ""
             },
             "require": {
                 "illuminate/container": "^10.0",
+                "jenssegers/mongodb": "4.0.0-rc1",
                 "luongtran/moloquent": "^1.0.0",
                 "spatie/laravel-permission": "^5.5"
             },
@@ -1685,9 +1686,9 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/luongtran/laravel-mongodb-permission-saptie/tree/v1.0.0"
+                "source": "https://github.com/luongtran/laravel-mongodb-permission-saptie/tree/v1.0.3"
             },
-            "time": "2023-09-23T16:12:33+00:00"
+            "time": "2023-09-24T15:47:42+00:00"
         },
         {
             "name": "luongtran/moloquent",
